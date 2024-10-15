@@ -14,7 +14,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"router.sol": "SafeMath"
+			"router.sol": "TransferHelper"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},

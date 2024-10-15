@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.5.16+commit.9c3226ce"
+		"version": "0.6.6+commit.6c089d02"
 	},
 	"language": "Solidity",
 	"output": {
@@ -37,7 +37,6 @@
 				"type": "event"
 			},
 			{
-				"constant": true,
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -53,12 +52,10 @@
 						"type": "address"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
 				"name": "allPairsLength",
 				"outputs": [
@@ -68,12 +65,10 @@
 						"type": "uint256"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": false,
 				"inputs": [
 					{
 						"internalType": "address",
@@ -94,12 +89,10 @@
 						"type": "address"
 					}
 				],
-				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
 				"name": "feeTo",
 				"outputs": [
@@ -109,12 +102,10 @@
 						"type": "address"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [],
 				"name": "feeToSetter",
 				"outputs": [
@@ -124,12 +115,10 @@
 						"type": "address"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": true,
 				"inputs": [
 					{
 						"internalType": "address",
@@ -150,12 +139,10 @@
 						"type": "address"
 					}
 				],
-				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"constant": false,
 				"inputs": [
 					{
 						"internalType": "address",
@@ -165,12 +152,10 @@
 				],
 				"name": "setFeeTo",
 				"outputs": [],
-				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"constant": false,
 				"inputs": [
 					{
 						"internalType": "address",
@@ -180,7 +165,6 @@
 				],
 				"name": "setFeeToSetter",
 				"outputs": [],
-				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -194,10 +178,13 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"factory.sol": "IUniswapV2Factory"
+			"router.sol": "IUniswapV2Factory"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
 		"optimizer": {
 			"enabled": true,
 			"runs": 999999
@@ -205,11 +192,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"factory.sol": {
-			"keccak256": "0x6f52717f13916c2b298cb09d2a07f7395123959ea7a5cd8d8b79402a704014b3",
+		"router.sol": {
+			"keccak256": "0xc450e44b036fda4944ae97129af648fddf9fab5fd44d5e8a4cca658bfe8ddd2e",
 			"urls": [
-				"bzz-raw://2e5c7bfa3290d0d5d94aa139d97cdee2ca8d0a59ea373b4cedfc2409a809a79b",
-				"dweb:/ipfs/QmeWfe6GQQWfTLrDd8qNRmneXQLQYbXwUEfBiTHcwg7at2"
+				"bzz-raw://f5a659182f7f8c8abb4bcc6437a85b5faa61e907e5a4a494f0f43285b535ad7a",
+				"dweb:/ipfs/QmYiQZ7rk5kKMCPeJa23QWRo1xr3VNjQfKnoCk1SffbFCh"
 			]
 		}
 	},
